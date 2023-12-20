@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">¿Quién se presenta hoy?</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <h1>Hoy se presenta <span id="nombre"></span></h1>
+    <div class="main-botton">
+        <div class="button" onclick=mostrarPersonaje()>Presentar</div>
+    </div>
+    <div id="cajas">
+        <div onclick=muestraImagen(this.id) id="mario"></div>
+        <div onclick=muestraImagen(this.id) id="luigi"></div>
+        <div onclick=muestraImagen(this.id) id="bowser"></div>
+        <div onclick=muestraImagen(this.id) id="peach"></div>
+        <div onclick=muestraImagen(this.id) id="yoshi"></div>
+        <div onclick=muestraImagen(this.id) id="toad"></div>
+        <div onclick=muestraImagen(this.id) id="toadette"></div>
+        <div onclick=muestraImagen(this.id) id="daisy"></div>
+    </div>
+
+    <script src="./asents/main.js"></script>
+</body>
+
+</html>
